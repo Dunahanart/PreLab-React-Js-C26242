@@ -6,7 +6,7 @@ export const ItemDetail = ({ item }) => {
   return (
     <div className="detail-wrapper">
       <Item {...item}>
-        <button className="btn bg-primary primary">
+        <button className="btn bg-primary primary"onClick={() => addItem(item)}>
           Agregar al carrito
         </button>
       </Item>

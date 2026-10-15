@@ -20,7 +20,7 @@ useEffect(() => {
         .catch((error) => setError(error.message))
         .finally(() => setLoading(false));
         
-    }, [category]); //dependencia category para que se vuelva a ejecutar el useEffect cuando cambie la categoria
+    }, []); //dependencia category para que se vuelva a ejecutar el useEffect cuando cambie la categoria
 
     //valor truthy y falsy
     if (loading) return <p>Cargando productos...</p>;

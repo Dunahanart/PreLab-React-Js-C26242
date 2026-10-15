@@ -87,4 +87,3 @@ export const getByCategory = async (category) => {
   }
 };
 
-console.log("buscando id:", id);
